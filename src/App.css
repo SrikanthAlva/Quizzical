@@ -60,6 +60,16 @@
   cursor: pointer;
 }
 
+.link{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #293264;
+  margin-top: -0.2rem;
+}
+
 .submit-btn {
   background: #4D5B9E;
   font-family: 'Inter';

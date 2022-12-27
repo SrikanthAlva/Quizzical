@@ -79,6 +79,7 @@ function App() {
             { !loading && !startQuiz && 
             <div className="home">
               <h1 className="title">Quizzical</h1>
+              <p className="link">by <a href="https://subtlecrypto.substack.com/">Subtle_Crypto</a></p>
               <p className="sub-title">Fun trivia quiz for everyone!</p>
               <input className="btn" type="button" onClick={beginGame} value={"Start Quiz"} />
             </div>
