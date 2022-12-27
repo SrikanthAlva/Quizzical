@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
       setLoading(true);
-     fetch("https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple")
+     fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple")
      .then(res => res.json())
      .then(response => setQuestions(response.results.map((ques:any) => {
       setLoading(false);
